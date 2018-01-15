@@ -2,7 +2,7 @@
 (remove: **text between brackets to be removed**)
 
 > * Participant name: Rachel Straney
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Project Title: Dogs Helping Pets: A Community Network to Aid in Finding Lost Pets
 
 ## General Introduction
 
