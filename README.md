@@ -43,21 +43,21 @@ The DHP network includes an online application that can be used by two types of 
 
 ## Dogs Helping Pets Network Model
 
-(remove: add a high-level overview of your model, the part below should link to the model directory markdown files)
-(remove: Look at the [**Object Diagram**](model/object_diagram.md) for how to structure this part of Part 2 for each diagram. Only the Object diagram has the template, the rest are blank. )
+The links below will direct to pages that describe the DHP Network model at different levels of detail. These diagrams are used as a guide to decribe the elements in the application how they function together.
 
-* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
-* [**Class Diagram**](model/class_diagram.md) - provides details of (what are you providing details of)
-* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
-* [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
+* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components in the DHP Network
+* [**Class Diagram**](model/class_diagram.md) - provides details of objects in the system and their attributes
+* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of how objects in the system interact
 
-## Smart City (My Problem) Simulation
+## Dogs Helping Pets Network Simulation
 
 (remove: for part 3 add two to three sentences here and link the [**(your own name)**](model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
+It 
 
+## Dogs Helping Pets Network Framework
+An initial Python program has been developed as a foundation for the DHP Network application. The program was written following the Object, Class and Behavior Diagrams mentioned above.
 
-## Smart City (My Problem) Model
-[**Code template**](code/README.md) - Starting coding framework for the (insert your exact problem here.)
+[**DHP Network Code**](code/README.md)
 
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
 Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template.
