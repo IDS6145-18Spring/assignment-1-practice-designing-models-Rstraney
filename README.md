@@ -22,7 +22,7 @@ There are examples of professional search and rescue services for lost pets. The
 
 **K-9 Search and Rescue of Orange City** is another organization that started in California but has opened services to Central Florida. Most cases K-9 Search and Rescue is contracted for invloves missing persons and criminal cases. However, in 2013 the organization expanded to include missing pets. According to a news article released by West Orlando News, the number of Pet Detectives across the country is relatively small.(http://westorlandonews.com/local-pet-search-rescue-service-offered-locally/).
 
-**Home Again** is an online community and service that supports reuniting lost pets with their owners. Although the service does include access to an online community network and resources for search and rescue dogs, it's main focus is to offer microchipping services as a preventative measure (https://www.homeagain.com/).
+**Home Again** is an online community and service that supports reuniting lost pets with their owners. Although the service does include access to an online community network and resources for search and rescue dogs, it's main focus is to offer micro chipping services as a preventative measure (https://www.homeagain.com/).
 
 
 #### Limitations
