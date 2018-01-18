@@ -2,4 +2,4 @@
 
 (remove: provide a description of the current model you describe below)
 
-![Behavior Diagram](../images/Behavior_Diagram.png)
+![Behavior Diagram](../images/Behavior_Diagram.PNG)
