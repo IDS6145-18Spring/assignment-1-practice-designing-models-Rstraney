@@ -1,7 +1,7 @@
-from application import application
-from user import user
+from Application import Application
+from User import User
 
-class TrainingResources(application):
+class TrainingResources(Application):
     ''' A general Training Resources class '''
 
     def __init__(self, id):
@@ -10,5 +10,5 @@ class TrainingResources(application):
 
     def check_trainer_status(self):
         '''Message for Training Resources'''
-        if user.lost_pet_status = True
-            print("You have access to Training Resources!")
+        if User.lost_pet_status == True:
+            print("Hey {}, you have access to Training Resources!".format(User.name))

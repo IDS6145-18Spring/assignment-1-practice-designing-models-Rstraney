@@ -1,6 +1,8 @@
-from user import user
 
-class application:
+from User import User
+
+
+class Application:
     ''' A general application class '''
 
     def __init__(self, f, b):
@@ -11,5 +13,4 @@ class application:
 
     def __str__(self):
         '''Welcome Page'''
-        return "Hello, {}.  Welcome to the Dogs Helping Pets Network!".format(
-            user.name)
+        return "Hello, {}.  Welcome to the Dogs Helping Pets Network!".format(User.name)

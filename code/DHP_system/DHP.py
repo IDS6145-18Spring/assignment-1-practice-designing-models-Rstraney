@@ -1,5 +1,5 @@
 import math, time, _thread, sys, os
-from user import user
+from User import User
 
 
 
@@ -45,7 +45,7 @@ def WaitForKeyPress(L):
 def CreateUsers(test_user):
     ''' Create some random plants'''
     for i in range(1,6):
-        test_user.append( user("00{}".format(str(i)),"User{}".format(str(i)),"PW{}".format(str(i)),"User{}@gmail.com".format(str(i))) )
+        test_user.append( User("00{}".format(str(i)),"User{}".format(str(i)),"PW{}".format(str(i)),"User{}@gmail.com".format(str(i))) )
         print ("User{}".format(str(i)))
 
 def Simulate():

@@ -1,4 +1,4 @@
-class user:
+class User:
     ''' A general user class '''
 
     def __init__(self, id, n, pw, e):

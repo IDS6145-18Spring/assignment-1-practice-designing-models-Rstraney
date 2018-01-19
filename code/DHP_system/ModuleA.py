@@ -1,6 +1,7 @@
-from training_resources import training_resources
+import math
+from TrainingResources import TrainingResources
 
-class Module_A(training_resources):
+class ModuleA(TrainingResources):
     ''' Module_A '''
 
     def __init__(self, id, g):

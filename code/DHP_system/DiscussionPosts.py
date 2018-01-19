@@ -1,6 +1,6 @@
-from social_communication import social_communication
+from SocialCommunication import SocialCommunication
 
-class discussion_posts(social_communication):
+class DiscussionPosts(SocialCommunication):
     ''' A general Discussion Post class '''
 
     def __init__(self, id):

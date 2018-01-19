@@ -1,14 +1,16 @@
-from training_resources import training_resources
+import math
+from TrainingResources import TrainingResources
+from TopicA1 import TopicA1
 
-class ModuleB(training_resources):
+class ModuleA(TrainingResources):
     ''' Module_A '''
 
     def __init__(self, id, g):
         '''Intializes Module A'''
         self.id = id
-        self.modB_grade = g
+        self.modA_grade = g
 
-    def __str__(self):
-        '''Module Content'''
-        return "This is the content of Module A."
-
+    def Calc_ModA_grade(self):
+        '''The grade for Module A is the
+        average score for all topics in the module'''
+        return math.average(T1, T2)

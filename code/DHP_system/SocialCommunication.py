@@ -1,7 +1,6 @@
-import math
-from application import application
+from Application import Application
 
-class social_communication(application):
+class SocialCommunication(Application):
     ''' A general Social Communication class '''
 
     def __init__(self, id):
