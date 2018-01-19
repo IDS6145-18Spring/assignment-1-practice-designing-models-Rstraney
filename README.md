@@ -51,11 +51,10 @@ The links below will direct to pages that describe the DHP Network model at diff
 * [**Class Diagram**](model/class_diagram.md) - provides details of objects in the system and their attributes
 * [**Behavior Diagram**](model/behavior_diagram.md) - provides details of how objects in the system interact
 
-## Dogs Helping Pets Network Simulation
+## Dogs Helping Pets Network Simulations
 
-(remove: for part 3 add two to three sentences here and link the [**(your own name)**](RStraney/model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
-It is important to simulate user data to test functionality of the system as well as effectiveness. Once the DHP Network is built, a small database of test user cases can be created to run through the system. Details of how a simulation can support development for this model can be found **here** (model/README.md). 
-System functions associated with users, like credential verification, adding and deleting discussion posts and status indicators (owner of a lost pet, dog trainer or both) can be tested for proper functionality. A more challenging problem is the question of how stable a network like this can be if there are not a balanced number of dog trainers to owners of lost pets. A more complicated simulation can be constructed which would evaluate how the system is used based on user behavior (i.e. people with lost pets discontinue using the application because there are not enough owners of trained dogs).
+It is important to simulate user data to test functionality of the system as well as effectiveness. Once the DHP Network is built, a small database of test user cases can be created to run through the system. Details of how a simulation can support development for this model can be found [**here**](analysis/behavior_diagram.md). 
+
 
 ## Dogs Helping Pets Network Framework
 An initial Python program has been developed as a foundation for the DHP Network application. The program was written following the Object, Class and Behavior Diagrams mentioned above.
