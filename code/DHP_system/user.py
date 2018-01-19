@@ -1,7 +1,7 @@
 class user:
     ''' A general user class '''
 
-    def __init__(self, id, n, pw, e, l, t):
+    def __init__(self, id, n, pw, e):
         '''Intializes the vegtable'''
         self.id = id
         self.name = n

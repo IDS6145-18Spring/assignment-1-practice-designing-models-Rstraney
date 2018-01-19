@@ -61,5 +61,3 @@ An initial Python program has been developed as a foundation for the DHP Network
 
 [**DHP Network Code**](code/README.md)
 
-## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
-Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template.

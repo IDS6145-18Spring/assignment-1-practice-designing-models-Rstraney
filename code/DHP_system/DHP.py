@@ -1,12 +1,6 @@
 import math, time, _thread, sys, os
-
 from user import user
-from application import application
-from social_communication import social_communication
-from discussion_posts import discussion_posts
-from training_resources import training_resources
-from Module_A import Module_A
-from Module_B import Module_B
+
 
 
 '''from stringbean import stringbean
@@ -17,8 +11,8 @@ from container import container
 from gardenmixsoil import gardenmixsoil
 from water import water'''
 
-containers = []
-thewater = water(1000)
+'''containers = []'''
+'''thewater = water(1000)'''
 
 
 def WaitForKeyPress(L):
@@ -48,27 +42,17 @@ def WaitForKeyPress(L):
     return result
 
 
-def CreatePlants(veggies):
+def CreateUsers(test_user):
     ''' Create some random plants'''
-    for i in range(0,5):
-        veggies.append( stringbean("String Bean {}".format(str(i)  ),1,1,1,0.1,0.2,0.1) )
-
-    for i in range(0,4):
-        veggies.append( pepper("Pepper {}".format(str(i)  ),1,1,1,0.15,0.27,0.21) )
-
-    for i in range(0,2):
-        veggies.append( eggplant("Eggplant {}".format(str(i)  ),1,1,1,0.2,0.24,0.14) )
-
-    for i in range(0,5):
-        veggies.append( bokchoy("Bok Choy {}".format(str(i)  ),1,1,1,0.14,0.12,0.31) )
-
-
+    for i in range(1,6):
+        test_user.append( user("00{}".format(str(i)),"User{}".format(str(i)),"PW{}".format(str(i)),"User{}@gmail.com".format(str(i))) )
+        print ("User{}".format(str(i)))
 
 def Simulate():
     L = []
     timestep = 0
-    global thewater
-    global containers
+    ''' global thewater
+    global containers'''
     _thread.start_new_thread(WaitForKeyPress, (L,))
 
     while 1:
@@ -76,13 +60,15 @@ def Simulate():
         if L: break
 
         print ("The timestep of the simulation is: {}".format(str(timestep)))
+        print("User{} created.".format(str(timestep)))
+
         timestep+=1
 
         if timestep%100 ==0: 
             for c in containers:
                 c.waterReserve += thewater.Rain()
 
-        for c in containers:
+            '''    for c in containers:
             for v in c.vegtables:
                 v.Grow()
                 c.nutrientReserve -= 2 * v.Volume()
@@ -93,24 +79,24 @@ def Simulate():
                     return
             print("Container: Water Reserve {}, Nutrient Level {}".format(str(c.waterReserve),str(c.nutrientReserve)))
 
-
+            '''
 
 #Remember this method gets executed first since its our 'main'
 def main():
 
-    #Make some vegtables
-    veggies = []
-    CreatePlants(veggies)
+    #Make some test users
+    test_user = []
+    CreateUsers(test_user)
 
-    #Print the Veggies
-    for v in veggies:
-        print(v)
+    #Print the test users
+    for u in test_user:
+        print(u)
 
-    global containers
-    containers.append( container(30, 200, gardenmixsoil("MySoil", 10.0, 20.0, 100.0), veggies) )
+    '''   global containers'''
+    '''containers.append( container(30, 200, gardenmixsoil("MySoil", 10.0, 20.0, 100.0), veggies) )'''
 
     print("\nPress Any key to quit simulation...\n")
-    Simulate()
+    ''' Simulate()'''
 
 
 if __name__ == "__main__":
