@@ -7,8 +7,8 @@ class user:
         self.name = n
         self.password = pw
         self.email = e
-        self.lost_pet_status = l
-        self.trainer_status = t
+        self.lost_pet_status = False
+        self.trainer_status = False
 
 
     def __str__(self):
@@ -18,14 +18,9 @@ class user:
 
 
     def lost_pet_request(self):
-        '''Function for Lost Pet Post'''
-        raise NotImplementedError("Please Implement the Grow method!")
-        #This containts a check to make sure subclasses implement this.
-        return None
-
+        '''Function for Lost Pet Post - default FALSE'''
+        self.lost_pet_status = True
 
     def trainer_access(self):
-        '''Function for Trainer Access to Modules'''
-        raise NotImplementedError("Please Implement the Volume method!")
-        #This containts a check to make sure subclasses implement this.
-        return None
+        '''Function for Trainer Access to Modules - default FALSE'''
+        self.trainer_status = True

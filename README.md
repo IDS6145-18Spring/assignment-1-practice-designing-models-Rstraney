@@ -39,7 +39,9 @@ The DHP network includes an online application that can be used by two types of 
 1. Provide resources for dog owners who wish to train their dogs to be better trackers for purposes of locating lost pets in their community
 2. Serve as a communication tool to connect owners of lost pets with owners of trained tracking dogs
 
-(remove: You should start by specifying a set of requirements. I specified a topic Smart Cities but what exactly does that mean-  you should practice formulating your own set of requirements and an experiment. Define a hypothesis of a problem cities face and how a smart city would possibly help alleviate this issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
+Inputs to the system include user discussion posts which should have the function to add, edit and delete. Most importantly is the ability to effectively connect owners of lost pets with owners of trained dogs. Status indicators or badges should be shown next to usernames in the system to identify individual roles in the network. These roles are not mutually exclusive. In other words, a dog owner of a trained dog can have an additional lost pet and so both status indicators should be visible by the online community. 
+
+As the network grows, outputs to measure the effectiveness of the system should be included. For example, tracking how many pets were successfully reunited through an owner of a trained dog can serve as a way to advertise expertise and increase participation.
 
 ## Dogs Helping Pets Network Model
 
@@ -51,8 +53,9 @@ The links below will direct to pages that describe the DHP Network model at diff
 
 ## Dogs Helping Pets Network Simulation
 
-(remove: for part 3 add two to three sentences here and link the [**(your own name)**](model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
-It 
+(remove: for part 3 add two to three sentences here and link the [**(your own name)**](RStraney/model/README.md) file in the analysis folder - which describe how you would simulate this - type of simulation, rough details -inputs, outputs - how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
+It is important to simulate user data to test functionality of the system as well as effectiveness. Once the DHP Network is built, a small database of test user cases can be created to run through the system. Details of how a simulation can support development for this model can be found **here** (model/README.md). 
+System functions associated with users, like credential verification, adding and deleting discussion posts and status indicators (owner of a lost pet, dog trainer or both) can be tested for proper functionality. A more challenging problem is the question of how stable a network like this can be if there are not a balanced number of dog trainers to owners of lost pets. A more complicated simulation can be constructed which would evaluate how the system is used based on user behavior (i.e. people with lost pets discontinue using the application because there are not enough owners of trained dogs).
 
 ## Dogs Helping Pets Network Framework
 An initial Python program has been developed as a foundation for the DHP Network application. The program was written following the Object, Class and Behavior Diagrams mentioned above.
