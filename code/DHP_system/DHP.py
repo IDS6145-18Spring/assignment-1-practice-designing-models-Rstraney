@@ -2,6 +2,12 @@ import math, time, _thread, sys, os
 
 from user import user
 from application import application
+from social_communication import social_communication
+from discussion_posts import discussion_posts
+from training_resources import training_resources
+from Module_A import Module_A
+from Module_B import Module_B
+
 
 '''from stringbean import stringbean
 from pepper import pepper
@@ -105,7 +111,6 @@ def main():
 
     print("\nPress Any key to quit simulation...\n")
     Simulate()
-
 
 
 if __name__ == "__main__":
