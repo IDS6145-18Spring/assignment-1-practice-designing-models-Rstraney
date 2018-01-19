@@ -53,7 +53,7 @@ The links below will direct to pages that describe the DHP Network model at diff
 
 ## Dogs Helping Pets Network Simulations
 
-It is important to simulate user data to test functionality of the system as well as effectiveness. Once the DHP Network is built, a small database of test user cases can be created to run through the system. Details of how a simulation can support development for this model can be found [**here**](analysis/behavior_diagram.md). 
+It is important to simulate user data to test functionality of the system as well as effectiveness. Once the DHP Network is built, a small database of test user cases can be created to run through the system. Details of how a simulation can support development for this model can be found [**here**](analysis/README.md). 
 
 
 ## Dogs Helping Pets Network Framework
